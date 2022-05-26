@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Inicio - Al Campo Tienda</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@200;300&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="indexbody">
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light d-flex flex-column">
+            <div class="container-fluid">
+                <a href="index.html"><img src="img/alcampo-logo.jpg" alt="AlCampoLogo" height="100px"></a>
+                <a class="navbar-brand" href="index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Mates, Termos y Accesorios</a></li>
+                                <li><a class="dropdown-item" href="#">Productos Regionales</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="pages/productos.html">Ver Todos</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/nosotros.html">Sobre Nosotros</a>
+                        </li>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/carrito.html">Carrito</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Ir</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="col-1 d-grid gap-1 mt-5 px-2">
+                <a href="https://instagram.com/alcampotienda" target="_blank"><img class="p-2 border"
+                        src="img/instagramlogo.png" alt="Logo IG" width="90px" height="90px"></a>
+                <a href="https://wa.me/542216257841" target="_blank"><img class="p-2 border" src="img/wsplogo.png"
+                        alt="Logo Wsp" width="100px" height="100px"></a>
+
+                <a href="mailto:alcampotienda@gmail.com" target="_blank"><img class="p-2 border" src="img/maillogo.png"
+                        alt="Logo Email" width="90px" height="80px"></a> </div>
+
+            <div class="col-10">
+                <h2>Nuestros Productos</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/mate-camionero.jpg" class="d-block w-50" alt="MateCamionero">
+                            <p>Mate Camionero - $4999</p>
+                            <button type="button" class="boton">Añadir al Carrito</button>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/matera-tela.jpg" class="d-block w-50" alt="MateraTela">
+                            <p>Matera de Tela - $2999</p>
+                            <button type="button" class="boton">Añadir al Carrito</button>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/termo-img.jpg" class="d-block w-50" alt="Termo">
+                            <p>Termo Simil Stanley - $7999</p>
+                            <button type="button" class="boton">Añadir al Carrito</button>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-1">
+
+    </main>
+
+
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-white text-dark">
+        <div class="container text-center">
+            <small>Al Campo Tienda 2022 - Todos Los Derechos Reservados</small>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import "variables";
+
+/* ANIDADO EL NAV DENTRO DEL BODY */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $colorblanco;
+    background: linear-gradient(to right, #76140d, #923b35);
+    position: relative;
+    padding-bottom: 2.5em;
+    min-height: 100vh;
+    nav {
+        font-family: 'IBM Plex Sans KR', sans-serif;
+        font-weight: bolder;
+    
+    
+    }
+}
+
+h2 {
+    font-family: $fontrad;
+    color: $colorblanco;
+    text-align: center;
+    font-weight: bold;
+}
+
+.carouselslide {
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+
+.carousel-inner img {
+
+    max-height: 480px;
+    position: sticky;
+
+}
+
+.carousel-inner {
+    position: relative;
+    left: 25%;
+    height: 600px;
+
+}
+
+.carousel-inner p {
+    font-family: $fontrad;
+    text-transform: uppercase;
+    font-size: larger;
+    color: $colorblanco;
+    position: relative;
+    left: 15%;
+}
+
+.boton {
+    position: relative;
+    left: 20%;
+    font-family: $fontrad;
+    font-weight: bold;
+}
+
+
+footer {
+    font-family: $fontrad;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+
+}
+
+
+h3 {
+    font-family: $fontrad;
+}
+
+h6 {
+    font-family: $fontkou;
+}
+
+.contactot {
+    font-family: $fontrad;
+}
+
+form {
+    font-family: $fontrad;
+    font-weight: bold;
+    
+}
+
+.formulario {
+    position: relative;
+    left: 30%;
+}
+
+
+.nosotros {
+    font-family: $fontrad;
+    font-weight: bold;
+}
+
+.carritoletra {
+    font-family: $fontrad;
+    font-weight: bold;
+}
+
+.produc {
+    font-family: $fontrad;
+    font-weight: bold;
+    text-align: center;
+}
+
+.produc img {
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+}
+
+.row {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img {
+    margin-top: 5px;
+
+}
+
+
+@media (max-width:800px) {
+    .column {
+        flex: 50%;
+    }
+}
+
+@media (max-width:600px) {
+    .column {
+        flex: 100%;
+    }
+}
+
+
+@media (max-width:800px) {
+    .indexbody {
+        flex: 50%;
+    }
+}
+
+@media (max-width:600px) {
+    .indexbody {
+        flex: 100%;
+    }
+}
+
